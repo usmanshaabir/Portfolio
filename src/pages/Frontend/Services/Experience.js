@@ -66,10 +66,10 @@ export default function Experience() {
       duration: 1000,
       once: false,
     });
-  }, []);
+  }, [])
   return (
     <>
-      <div className='mt-14 font-plus-jakarta pt-24' id='services'>
+      <div className='mt-14 font-plus-jakarta py-24' id='services'>
         <p className='font-bold text-3xl text-center'>Professional Experience</p>
         <div className='grid grid-cols-1 lg:grid-cols-3'>
           <div>

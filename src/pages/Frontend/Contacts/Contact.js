@@ -85,7 +85,7 @@ export default function Contact() {
 
 
   return (
-    <div className="container mx-auto py-16" id='contact'>
+    <div className="container mx-auto pt-16" id='contact'>
       <div className='font-plus-jakarta'>
         <h2 className='font-bold mt-10 text-[36px] text-center text-[#7374F1]'>Contact me</h2>
         <p className='text-center'>Feels free to contact me for more details</p>

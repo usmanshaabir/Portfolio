@@ -12,7 +12,7 @@ export default function Footer() {
     }
     return (
         <>
-            <div className='bg-[#7374f1] py-4 text-center mt-20'>
+            <div className='bg-[#7374f1] py-4 text-center mt-10'>
                 <div className=''>
                     <FontAwesomeIcon className='px-4 text-lg text-white cursor-pointer hover:text-slate-300' icon={faInstagram} onClick={handleInstragram} />
                     <FontAwesomeIcon className='px-4 text-lg text-white cursor-pointer hover:text-slate-300' icon={faSquareGithub} />
