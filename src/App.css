@@ -1,0 +1,173 @@
+@import 'aos/dist/aos.css';
+
+#root {
+    overflow-x: hidden !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+
+/* links and email css showing on home page */
+.icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icons-span {
+    border: 1px solid transparent;
+    margin-top: 10px;
+    opacity: .8;
+    color: #7374f1;
+    cursor: pointer;
+    padding: .25rem;
+    transition: all ease .7s;
+}
+
+.email-link {
+    white-space: nowrap;
+    transform: rotate(270deg);
+    color: #7374f1;
+    margin-bottom: 120px;
+    transition: ease-whereIWorkedTransitionProperty ease-whereIWorkedTransitionTiming duration-whereIWorkedTransitionDuration;
+}
+
+.vertical-line {
+    border: 1px solid #a8b2d1;
+    width: 0;
+    height: 7.187rem;
+}
+
+@media (max-width: 661px) {
+    .icons {
+        display: none;
+    }
+
+    .contentContainer {
+        display: none;
+    }
+}
+
+.header-logo::after {
+    content: " ";
+    margin-left: 4px;
+    position: absolute;
+    bottom: 24px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #7322CE;
+
+
+}
+
+.wave {
+    animation-name: wave-animation;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 80% 80%;
+    display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% {
+        transform: rotate(0.0deg)
+    }
+
+    10% {
+        transform: rotate(14.0deg)
+    }
+
+    20% {
+        transform: rotate(-8.0deg)
+    }
+
+    30% {
+        transform: rotate(14.0deg)
+    }
+
+    40% {
+        transform: rotate(-4.0deg)
+    }
+
+    50% {
+        transform: rotate(10.0deg)
+    }
+
+    60% {
+        transform: rotate(0.0deg)
+    }
+
+    100% {
+        transform: rotate(0.0deg)
+    }
+}
+
+
+h3 {
+    font-size: 25px;
+    color: #8bf;
+    text-align: left;
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+}
+
+@media (prefers-reduced-motion) {
+    .typewriter::after {
+        animation: none;
+    }
+
+    @keyframes sequencePopup {
+
+        0%,
+        100% {
+            content: "React developer";
+        }
+
+        25% {
+            content: "MEARN Stack Developer";
+        }
+
+        50% {
+            content: "Bootstrap Developer";
+        }
+
+        75% {
+            content: "Tailwind Developer";
+        }
+    }
+
+    .typewriter::before {
+        content: "developer";
+        animation: sequencePopup 12s linear infinite;
+    }
+}
+
+.fixed-navbar {
+    position: fixed;
+    top: 0;
+    /* Stick to the top of the viewport */
+
+    /* Add any additional styling you need for your navigation bar */
+    /* For example, you can add background color, padding, etc. */
+}
+
+/* Add this if you want a shadow or a border for the fixed navigation bar */
+.fixed-navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Add other styling as needed */
+}
+
+@media only screen and (max-width: 426px) {
+    .home-card {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}

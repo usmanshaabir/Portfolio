@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+    background-color: #fff;
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    border: 1px solid transparent;
+    border-radius: 25px;
+    background: #a7a7fa;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #4c4ca5;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
