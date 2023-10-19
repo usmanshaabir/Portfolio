@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <>
       <div className='' id='home'>
-        <p className='text-center mt-32 text-3xl font-bold mb-16'>Specialized In</p>
-        <div className='grid grid-cols-1 xl:grid-cols-4 md:grid-cols-2 lg:ms-28 md:ms-[2rem] home-card  gap-10 xl:flex justify-center items-center'>
+        <p className='text-center mt-6 md:mt-24 text-3xl font-bold mb-16'>Specialized In</p>
+        <div className='grid grid-cols-1 xl:grid-cols-4 md:grid-cols-2 lg:ms-28 md:ms-[2rem] home-card gap-10 xl:flex justify-center items-center mstart'>
           <div data-aos="flip-left" className={`hover:bg-purple-600 hover:text-white cursor-pointer transition-all shadow-lg w-80 h-72 rounded-lg flex-col flex justify-center items-center`} style={{
             boxShadow: isDarkMode ? '0 0 10px rgba(255, 255, 255, 0.15)' : 'rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px',
           }}>

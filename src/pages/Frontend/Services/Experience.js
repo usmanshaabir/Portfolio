@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from 'react';
 import purpleDot from '../../../assets/Images/purple-circle.png';
 import Aos from 'aos';
-import 'aos/dist/aos.css'
-import './Experience.css'
+import 'aos/dist/aos.css';
+import './Experience.css';
 import { FaCalendar, FaCheck, FaUser, FaUsers } from 'react-icons/fa';
 
 export default function Experience() {
@@ -66,22 +66,22 @@ export default function Experience() {
       duration: 1000,
       once: false,
     });
-  }, [])
+  }, []);
   return (
     <>
-      <div className='mt-36 font-plus-jakarta py-24' id='services'>
+      <div className='mt-14 font-plus-jakarta pt-24' id='services'>
         <p className='font-bold text-3xl text-center'>Professional Experience</p>
         <div className='grid grid-cols-1 lg:grid-cols-3'>
           <div>
-            <div data-aos="zoom-out-up" className='lg:text-right mt-10 lg:mt-48 px-6 lg:ps-16'>
+            <div data-aos="zoom-out-up" className='mt-10 lg:mt-48 px-6 lg:ps-24'>
               <h5 className='text-base font-medium '>March-2022 - January 2023</h5>
-              <h2 className='text-[20px] font-medium mb-5'>Frontend Developer</h2>
-              <p className='lg:text-right '>I'm a frontend developer with a passion for crafting intuitive user experiences and translating design into seamless, interactive websites and web applications</p>
+              <h2 className='text-[20px] font-medium mb-5 text-[#7E74F1]'>Frontend Developer</h2>
+              <p className='text-start'>I'm a frontend developer with a passion for crafting intuitive user experiences and translating design into seamless, interactive websites and web applications</p>
             </div>
-            <div data-aos="zoom-out-up" className='mt-10 lg:mt-48 lg:text-right px-6 lg:ps-16'>
+            <div data-aos="zoom-out-up" className='mt-10 lg:mt-48 px-6 lg:ps-24'>
               <h5 className='text-base font-medium '>February-2023 - Continue</h5>
-              <h2 className='text-[20px] font-medium mb-5'>React Js Developer</h2>
-              <p className='lg:text-right '>I'm a React developer proficient in building dynamic and efficient web applications using the React.js framework to create engaging user interfaces.</p>
+              <h2 className='text-[20px] font-medium mb-5 text-[#7E74F1]'>React Js Developer</h2>
+              <p className='text-start '>I'm a React developer proficient in building dynamic and efficient web applications using the React.js framework to create engaging user interfaces.</p>
             </div>
           </div>
           <div className='lg:flex justify-center mt-16 relative hidden '>
@@ -95,13 +95,13 @@ export default function Experience() {
           <div>
             <div data-aos="zoom-out-down" className='mt-10 lg:mt-16 px-6 lg:pe-16'>
               <h5 className='text-base font-medium '>February-2023 - Continue</h5>
-              <h2 className='text-[20px] font-medium mb-5'>Junior Mean Stack Developer</h2>
-              <p className=''>I'm a junior MERN stack developer eager to learn and contribute to building full-stack web applications using MongoDB, Express.js, React, and Node.js.</p>
+              <h2 className='text-[20px] font-medium mb-5 text-[#7E74F1]'>Junior Mean Stack Developer</h2>
+              <p className='text-start'>I'm a junior MERN stack developer eager to learn and contribute to building full-stack web applications using MongoDB, Express.js, React, and Node.js.</p>
             </div>
             <div data-aos="zoom-out-down" className='mt-10 lg:mt-44  px-6 lg:pe-16'>
               <h5 className='text-base font-medium '>February-2023 - Continue</h5>
-              <h2 className='text-[20px] font-medium mb-5'>BootStrap/Tailwind Css Developer</h2>
-              <p className=''>
+              <h2 className='text-[20px] font-medium mb-5 text-[#7E74F1]'>BootStrap/Tailwind Css Developer</h2>
+              <p className='text-start'>
                 I'm a developer experienced in creating visually appealing and responsive web designs by utilizing Bootstrap and Tailwind CSS to enhance user interface aesthetics and usability.</p>
             </div>
           </div>

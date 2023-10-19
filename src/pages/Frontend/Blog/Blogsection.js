@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import mataverse from '../../../assets/blog/mataverse.jpg';
-import web from '../../../assets/blog/Webdevelopmenttimeline.png';
-import elonMask from '../../../assets/Images/elon.jpg';
+import mataverse from '../../../assets/metaverse.jpg';
+import web from '../../../assets/blog/development.jpg';
+import elonMask from '../../../assets/blog/elonMusk.jpg';
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 import { useThemeContext } from '../../../Context/ThemeContext';
@@ -60,7 +60,7 @@ export default function Blogsection() {
             </div>
           </div>
           <div data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500"
-            data-aos-duration="500" className={`${isDarkMode ? 'bg-[#1e1d29]' : 'bg-[#dcd9df]'} -3xl mb-4  w-80 lg:w-96`}>
+            data-aos-duration="500" className={`${isDarkMode ? 'bg-[#1e1d29]' : 'bg-[#dcd9df]'} rounded-3xl mb-4  w-80 lg:w-96`}>
             <img src={elonMask} className='rounded-t-3xl h-80 w-full' alt="image not found" />
             <div className='px-3 py-3'>
               <h2 className='text-[#7E74F1] text-[20px] font-medium leading-normal mt-4'>Elon Mask Trends 2023</h2>

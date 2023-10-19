@@ -51,13 +51,13 @@ export default function Header() {
 
   return (
     <>
-      <div className={`${isDarkMode ? 'bg-[#111827]' : 'bg-white'} ${isDarkMode ? 'text-white' : 'text-black'}  grid grid-cols-1 lg:grid-cols-2 h-100 items-center md:px-28 px-4 pt-16 pb-16`}>
+      <div className={`${isDarkMode ? 'bg-[#111827]' : 'bg-white'} ${isDarkMode ? 'text-white' : 'text-black'}  grid grid-cols-1 lg:grid-cols-2 h-100 items-center md:px-28 px-4 pt-32 pb-16`}>
         <div className=''>
           <h1 className='text-3xl mb-3'>Hi, There! <span class="wave"> 👋</span></h1>
           <h1 aria-label="Hi! I'm a developer" className='text-[#7E74F1] text-3xl font-bold'>I'm &nbsp;Nauman <span className='text-[#7E74F1]'>Shabbir</span></h1>
           <span class="typewriter font-bold text-xl text-[#7E74F1]"><Type /></span>
-          <p className='mt-6'>I am a creative front-end developer with over two years of hands-on experience in both enterprise-level companies and dynamic startup environments. My expertise lies in crafting captivating and user-friendly web interfaces using a diverse skill set that encompasses HTML, CSS, SCSS, JavaScript, and React.</p>
-          <div className='flex mt-10'>
+          <p className='mt-6 text-start'>I am a creative front-end developer with over two years of hands-on experience in both enterprise-level companies and dynamic startup environments. My expertise lies in crafting captivating and user-friendly web interfaces using a diverse skill set that encompasses HTML, CSS, SCSS, JavaScript, and React.</p>
+          <div className='flex mt-10 justify-center md:justify-start'>
             <div>
               <button className={`text-white rounded-md border border-[#7E74F1] bg-[#7e74f1] px-4 py-3 text-md me-5 ${isActive('download')}`} id='download' onClick={() => handleActive('download')}>Download CV</button>
             </div>
